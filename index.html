@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Task App</title>
+  </head>
+  <body>
+    <section id="task_container">
+      <h1 class="title">Task App</h1>
+      <div class="task_list_section">
+        <!-- input task -->
+        <input
+          value=""
+          placeholder="add task"
+          id="input_task"
+          type="text"
+          class="validate"
+        />
+        <!-- submit btn -->
+        <a class="waves-effect waves-light btn-small submit_btn">Submit</a>
+        <!-- /input -->
+        <ul class="task_holder">
+          <li class="task">Take out trash</li>
+
+          <a class="waves-effect waves-light btn-small btn-delete">Delete</a>
+          <li class="task">Code</li>
+
+          <a class="waves-effect waves-light btn-small btn-delete">Delete</a>
+          <li class="task">Gym</li>
+
+          <a class="waves-effect waves-light btn-small btn-delete">Delete</a>
+        </ul>
+      </div>
+    </section>
+
+    <!-- script link -->
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
